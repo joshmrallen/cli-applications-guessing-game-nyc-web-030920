@@ -1,7 +1,7 @@
 # Code your solution here!
 
 def generate_rand
-  random = rand(1...6)
+  random = rand(1...6) + 1
   return random
 end
 
