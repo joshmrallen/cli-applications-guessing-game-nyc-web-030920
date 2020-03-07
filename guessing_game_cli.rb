@@ -43,7 +43,7 @@ def run_guessing_game
             prompt
 
         else
-            puts "Sorry! The computer guessed 6." #test suite should be looking for #{random variable name} for randomly generated computer guess here, but putting 6 passes the test
+            puts "Sorry! The computer guessed #{random}." #test suite should be looking for #{random variable name} for randomly generated computer guess here, but putting 6 passes the test
             break
 
         end #end if statement
